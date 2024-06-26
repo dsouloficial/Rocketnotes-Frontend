@@ -7,7 +7,6 @@ import { useAuth } from "../../hooks/auth";
 import { useNavigate } from "react-router-dom";
 
 import { api } from "../../services/api";
-import avatarPlaceholder from "../../assets/avatar_placeholder.svg";
 
 export function Profile() {
   const { user, updateProfile } = useAuth();
@@ -98,3 +97,4 @@ export function Profile() {
     </Container>
   );
 }
+
